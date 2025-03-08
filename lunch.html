@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunch Menu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+    <style>
+        .menu-section {
+            background-image: url('https://source.unsplash.com/1600x900/?lunch,food');
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+        .overlay {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 40px;
+            border-radius: 16px;
+        }
+    </style>
+</head>
+<body class="p-4 bg-gray-50">
+    <nav class="flex justify-around p-4 bg-gray-100 shadow-md rounded-2xl mb-4">
+        <a href="home.html" class="px-3 py-2 hover:bg-gray-200 rounded-lg">Home</a>
+        <a href="coffee.html" class="px-3 py-2 hover:bg-gray-200 rounded-lg">Coffee Menu</a>
+        <a href="lunch.html" class="px-3 py-2 hover:bg-gray-200 rounded-lg">Lunch Menu</a>
+        <a href="support.html" class="px-3 py-2 hover:bg-gray-200 rounded-lg">Support</a>
+        <a href="contact.html" class="px-3 py-2 hover:bg-gray-200 rounded-lg">Contact Us</a>
+    </nav>
+
+    <section id="lunch-menu" class="menu-section p-4 shadow-md rounded-2xl mb-4">
+        <div class="overlay">
+            <h2 class="text-4xl font-bold mb-4">Lunch Menu</h2>
+            <ul class="text-lg space-y-2">
+                <li class="flex justify-between bg-white text-gray-800 p-3 rounded-lg shadow-md">
+                    <span>Grilled Cheese Sandwich</span>
+                    <span>$6.50</span>
+                </li>
+                <li class="flex justify-between bg-white text-gray-800 p-3 rounded-lg shadow-md">
+                    <span>Chicken Caesar Salad</span>
+                    <span>$8.00</span>
+                </li>
+                <li class="flex justify-between bg-white text-gray-800 p-3 rounded-lg shadow-md">
+                    <span>Turkey & Swiss Panini</span>
+                    <span>$7.50</span>
+                </li>
+                <li class="flex justify-between bg-white text-gray-800 p-3 rounded-lg shadow-md">
+                    <span>Veggie Wrap</span>
+                    <span>$7.00</span>
+                </li>
+                <li class="flex justify-between bg-white text-gray-800 p-3 rounded-lg shadow-md">
+                    <span>Avocado Toast</span>
+                    <span>$5.50</span>
+                </li>
+                <li class="flex justify-between bg-white text-gray-800 p-3 rounded-lg shadow-md">
+                    <span>Tomato Soup</span>
+                    <span>$4.00</span>
+                </li>
+                <li class="flex justify-between bg-white text-gray-800 p-3 rounded-lg shadow-md">
+                    <span>Quiche of the Day</span>
+                    <span>$6.00</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>

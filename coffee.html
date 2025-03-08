@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Menu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+    <style>
+        .menu-section {
+            background-image: url('https://source.unsplash.com/1600x900/?coffee');
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+        .overlay {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 40px;
+            border-radius: 16px;
+        }
+    </style>
+</head>
+<body class="p-4 bg-gray-50">
+    <nav class="flex justify-around p-4 bg-gray-100 shadow-md rounded-2xl mb-4">
+        <a href="home.html" class="px-3 py-2 hover:bg-gray-200 rounded-lg">Home</a>
+        <a href="coffee.html" class="px-3 py-2 hover:bg-gray-200 rounded-lg">Coffee Menu</a>
+        <a href="lunch.html" class="px-3 py-2 hover:bg-gray-200 rounded-lg">Lunch Menu</a>
+        <a href="support.html" class="px-3 py-2 hover:bg-gray-200 rounded-lg">Support</a>
+        <a href="contact.html" class="px-3 py-2 hover:bg-gray-200 rounded-lg">Contact Us</a>
+    </nav>
+
+    <section id="coffee-menu" class="menu-section p-4 shadow-md rounded-2xl mb-4">
+        <div class="overlay">
+            <h2 class="text-4xl font-bold mb-4">Coffee Menu</h2>
+            <ul class="text-lg space-y-2">
+                <li class="flex justify-between bg-white text-gray-800 p-3 rounded-lg shadow-md">
+                    <span>Espresso</span>
+                    <span>$3.00</span>
+                </li>
+                <li class="flex justify-between bg-white text-gray-800 p-3 rounded-lg shadow-md">
+                    <span>Latte</span>
+                    <span>$4.50</span>
+                </li>
+                <li class="flex justify-between bg-white text-gray-800 p-3 rounded-lg shadow-md">
+                    <span>Cappuccino</span>
+                    <span>$4.00</span>
+                </li>
+                <li class="flex justify-between bg-white text-gray-800 p-3 rounded-lg shadow-md">
+                    <span>Americano</span>
+                    <span>$3.50</span>
+                </li>
+                <li class="flex justify-between bg-white text-gray-800 p-3 rounded-lg shadow-md">
+                    <span>Mocha</span>
+                    <span>$5.00</span>
+                </li>
+                <li class="flex justify-between bg-white text-gray-800 p-3 rounded-lg shadow-md">
+                    <span>Cold Brew</span>
+                    <span>$4.00</span>
+                </li>
+                <li class="flex justify-between bg-white text-gray-800 p-3 rounded-lg shadow-md">
+                    <span>Macchiato</span>
+                    <span>$4.50</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
+

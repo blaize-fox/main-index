@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+    <style>
+        .support-section {
+            background-image: url('https://source.unsplash.com/1600x900/?customer-service,help');
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+        .overlay {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 40px;
+            border-radius: 16px;
+        }
+    </style>
+</head>
+<body class="p-4 bg-gray-50">
+    <nav class="flex justify-around p-4 bg-gray-100 shadow-md rounded-2xl mb-4">
+        <a href="home.html" class="px-3 py-2 hover:bg-gray-200 rounded-lg">Home</a>
+        <a href="coffee.html" class="px-3 py-2 hover:bg-gray-200 rounded-lg">Coffee Menu</a>
+        <a href="lunch.html" class="px-3 py-2 hover:bg-gray-200 rounded-lg">Lunch Menu</a>
+        <a href="support.html" class="px-3 py-2 hover:bg-gray-200 rounded-lg">Support</a>
+        <a href="contact.html" class="px-3 py-2 hover:bg-gray-200 rounded-lg">Contact Us</a>
+    </nav>
+
+    <section id="support" class="support-section p-4 shadow-md rounded-2xl mb-4">
+        <div class="overlay">
+            <h2 class="text-4xl font-bold mb-4">Support</h2>
+            <p class="text-lg mb-4">We're here to help! If you have any questions, issues, or need assistance, please reach out to us.</p>
+            <ul class="space-y-4">
+                <li class="bg-white text-gray-800 p-4 rounded-lg shadow-md">
+                    <h3 class="font-semibold">Email Support</h3>
+                    <p>Send us an email at <a href="mailto:support@coffeeshop.com" class="text-blue-500">support@coffeeshop.com</a></p>
+                </li>
+                <li class="bg-white text-gray-800 p-4 rounded-lg shadow-md">
+                    <h3 class="font-semibold">Phone Support</h3>
+                    <p>Call us at <a href="tel:+1234567890" class="text-blue-500">+1 (234) 567-890</a></p>
+                </li>
+                <li class="bg-white text-gray-800 p-4 rounded-lg shadow-md">
+                    <h3 class="font-semibold">Live Chat</h3>
+                    <p>Chat with us online for immediate support.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+</body>
+</html>
